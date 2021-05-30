@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/container"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#3c3f53"
+	android:orientation="vertical" >
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+	<android.support.design.widget.BottomNavigationView
+		android:id="@+id/navigation"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginEnd="0dp"
+		android:layout_marginStart="0dp"
+		android:layout_marginTop="0dp"
+		android:background="#4a4d65"
+					
+		app:menu="@menu/navigation" />
+		</LinearLayout>
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+	<LinearLayout
+	
+		
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/layoutContent"
+		android:orientation="vertical"
+		android:gravity="center_horizontal|bottom"
+		
+		>
+	
+			
+		<Button
+			android:layout_width="300dp"
+			android:layout_height="50dp"
+			android:text="ПН:"
+			android:onClick="mondayButton_Click"
+			android:id="@+id/mondayButton"
+			android:background="@drawable/custombutton"
+						/>
+		<Button
+			android:layout_width="300dp"
+			android:layout_height="50dp"
+			android:text="ВТ:"
+			android:id="@+id/tuesdayButton"
+			android:layout_marginTop="15dp"
+			android:background="@drawable/custombutton"
+			/>
+
+		<Button
+			android:layout_width="300dp"
+			android:layout_height="50dp"
+			android:text="СР:"
+			android:id="@+id/wednesdayButton"
+			android:layout_marginTop="15dp"
+			android:background="@drawable/custombutton"
+			/>
+
+		<Button
+			android:layout_width="300dp"
+			android:layout_height="50dp"
+			android:text="ЧТ:"
+			android:id="@+id/thursdayButton"
+			android:layout_marginTop="15dp"
+			android:background="@drawable/custombutton"
+			/>
+
+		<Button
+			android:layout_width="300dp"
+			android:layout_height="50dp"
+			android:text="Пт:"
+			android:id="@+id/fridayButton"
+			android:layout_marginTop="15dp"
+			android:background="@drawable/custombutton"
+			/>
+
+		<Button
+			android:layout_width="300dp"
+			android:layout_height="50dp"
+			android:text="СБ:"
+			android:id="@+id/saturdayButton"
+			android:layout_marginTop="15dp"
+			android:background="@drawable/custombutton"
+			/>
+
+		<Button
+			android:layout_width="300dp"
+			android:layout_height="50dp"
+			android:text="ВС:"
+			android:id="@+id/sundayButton"
+			android:layout_marginTop="15dp"
+			android:background="@drawable/custombutton"
+			/>
+		
+
+
+
+	</LinearLayout>
+
+	</ScrollView>
+	</LinearLayout>

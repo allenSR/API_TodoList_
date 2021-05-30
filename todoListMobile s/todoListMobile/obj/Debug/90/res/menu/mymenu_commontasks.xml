@@ -1,0 +1,1 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"><item android:id="@+id/clearComplitedTasks_Common" android:title="@string/clearComplitedTasks_Common" /><item android:id="@+id/clearAllTasks_Common" android:title="@string/clearAllTasks_Common" /></menu>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:id="@+id/_items"
+	android:descendantFocusability="blocksDescendants"
+>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_vertical|center_horizontal"
+		android:id="@+id/linearLayout1"
+		android:fadingEdge="none"
+		android:layout_marginTop="10dp">
+
+		<TextView
+			android:text="№"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/nuberTaskText"
+			android:textSize="18dp"
+			android:textColor="#ffe0e0e0"
+			android:lineSpacingExtra="4dp"
+			 />
+		<TextView
+			android:text="Описание задачи text text text"
+			android:textSize="18dp"
+			android:textColor="#ffe0e0e0"
+			android:lineSpacingExtra="4dp"
+			android:layout_width="200dp"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="15dp"
+			android:id="@+id/descriptionTaskText" />
+
+		<TextView
+			android:text=""
+			android:layout_width="90dp"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="15dp"
+			android:id="@+id/deadlineText"
+			android:textSize="18dp"
+			android:textColor="#ffe0e0e0"
+			
+        
+			 />
+		<CheckBox
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="end"
+			android:id="@+id/dealStatusCheckBox"
+			
+			/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="2dp"
+		android:layout_marginBottom="2dp"
+		android:background="#ffbdbdbd"
+		android:orientation="horizontal"
+		
+		>
+	</LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:id="@+id/loginView"
+	android:background="#3c3f53">
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:text="Вход"
+		android:textSize="22dp"
+		android:textAlignment="center"
+		android:layout_marginTop="30dp"
+		android:textColor="#1399FF"
+		android:textStyle="bold"
+        />
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="30dp"
+		android:text="Логин"
+		android:textSize="22dp"
+		android:textAlignment="center"
+		android:layout_marginTop="30dp"
+		android:textColor="#1399FF"
+		android:textStyle="bold"	
+        />
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="Введите логин"
+		android:inputType="text"
+		android:textColorHint="#ffe0e0e0"
+		android:textColor="#ffe0e0e0"
+		android:id="@+id/loginText"
+		android:layout_marginTop="0dp"
+     />
+
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="30dp"
+		android:text="Пароль"
+		android:textSize="22dp"
+		android:textAlignment="center"
+		android:layout_marginTop="20dp"
+		android:textColor="#1399FF"
+		android:textStyle="bold"
+        />
+
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/passwordText"
+		android:inputType="textVisiblePassword"
+		android:hint="Введите пароль"
+		android:textColorHint="#ffe0e0e0"
+		android:textColor="#ffe0e0e0"
+		android:layout_marginTop="0dp"
+		android:password="true"
+    />
+	<CheckBox
+		android:text="Запомнить пароль"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/checkBoxPass"
+		android:checked="false"
+		android:layout_marginTop="20dp"
+		android:layout_marginLeft="5dp"
+		android:textSize="20dp"
+		android:textColor="#ffe0e0e0"
+		android:textStyle="normal"
+		android:theme="@style/MyCheckBox"
+		
+    />
+
+	<Button
+		android:layout_width="200dp"
+		android:layout_height="60dp"
+		android:id="@+id/loginButton"
+		android:text="Войти"
+		android:layout_gravity="center"
+		android:layout_marginTop="20dp"
+		android:textColor="#fff"
+		android:textSize="16dp"
+		android:background="@drawable/custombutton"
+        />
+
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="32dp"
+		android:id="@+id/registrarionButton"
+		android:text="Зарегестрироваться"
+		android:textAlignment="center"
+		android:layout_marginTop="20dp"
+		android:textSize="18dp"
+		android:textColor="#1399FF"
+		android:textStyle="bold"
+		android:background="@android:color/transparent"
+        
+    />
+		</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:gravity="bottom|right">
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textColor="#1399FF"		
+		android:text="настройки подключения"
+		android:layout_marginRight="10dp"
+			android:layout_marginTop="20dp"
+			android:id="@+id/connectionSettingsButton"
+			android:background="@color/mtrl_btn_transparent_bg_color"/>
+		</LinearLayout>
+</LinearLayout>
+
+

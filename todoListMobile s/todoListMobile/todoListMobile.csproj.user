@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SelectedDevice>Philips V377</SelectedDevice>
+    <AndroidDesignerPreferredTheme>AppTheme</AndroidDesignerPreferredTheme>
+    <AndroidDesignerPreferredDevice>Nexus 4</AndroidDesignerPreferredDevice>
+    <DefaultDevice>pixel_3_xl_nougat_7_1_-_api_25</DefaultDevice>
+    <ProjectView>ShowAllFiles</ProjectView>
+    <ActiveDebugProfile>Philips V377</ActiveDebugProfile>
+  </PropertyGroup>
+</Project>
